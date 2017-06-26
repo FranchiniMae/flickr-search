@@ -1,0 +1,42 @@
+[class^="image-container-"] {
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.image {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+}
+
+#images {
+	width: 750px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#search-bar-container {
+	padding-bottom: 15px;
+}
+
+#search-bar-container input {
+	-webkit-appearance:none;
+	width: 275px;
+	height: 40px;
+	padding-left: 10px;
+	font-family: arial;
+	font-size: 15px;
+	border: 1px solid #bbb;
+}
+
+.views {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-weight: bold;
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+}
